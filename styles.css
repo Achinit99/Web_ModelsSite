@@ -32,7 +32,7 @@ body {
 }
 
 .procon{
-  margin-top: 10%;
+  margin-top: 100px;
 }
 
 
@@ -111,4 +111,48 @@ body {
 
 p{
   color: rgb(255, 255, 255);
+}
+
+
+
+/* hr text */
+
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap; 
+  font-size: 40px;
+}
+
+.strike > span {
+  position: relative;
+  display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 3px;
+  background: rgb(2, 2, 2);
+}
+
+.strike > span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.strike > span:after {
+  left: 100%;
+  margin-left: 15px;
+  
+}
+
+
+.hrpd{
+  margin-left: 35%;
+  margin-right: 35%;
 }
