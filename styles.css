@@ -148,3 +148,18 @@ p {
   margin-left: 35%;
   margin-right: 35%;
 }
+<<<<<<< HEAD
+=======
+
+
+.sec1{
+  background-color: rgb(227, 227, 227);
+  height: 400px;
+  width: 100%;
+}
+
+.sec1content{
+  margin-top: 60px;
+  margin-left: 80px;
+}
+>>>>>>> dd099afc8ae28205f5f2dc88392d6c7f33e11f00
