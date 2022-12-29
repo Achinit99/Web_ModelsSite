@@ -1,0 +1,32 @@
+body {
+  height: 2000px;
+  overflow-x: hidden;
+}
+
+#tittle {
+  padding: 3% 6%;
+}
+
+.container.fluid {
+  padding: 3% 5%;
+}
+
+/* Navigation Bar */
+
+.nav-item {
+  padding-right: 20px;
+  display: inline-block;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+.bg-image {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
