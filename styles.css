@@ -4,7 +4,7 @@ body {
 }
 
 #tittle {
-  padding: 3% 6%;
+  padding: 4% 8%;
 }
 
 .container.fluid {
@@ -20,7 +20,7 @@ body {
   font-size: 18px;
 }
 
-.bg-image {
+.bg-video {
   height: 100vh;
   width: 100vw;
   object-fit: cover;

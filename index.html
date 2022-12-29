@@ -15,7 +15,21 @@
   <body>
     <!-- Navigation Bar -->
     <section id="tittle">
-      <img class="bg-image" src="bggirl.jpg" alt="Bg image" />
+      <!--<img class="bg-image" src="bggirl.jpg" alt="Bg image" />-->
+      <div class="video-wrapper embed-responsive-item">
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          class="bg-video"
+        >
+          <source src="video.mp4" allowfullscreen />
+        </video>
+      </div>
+      <hr style="color: antiquewhite" />
+
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark">
           <a
@@ -42,7 +56,7 @@
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Models</a>
+                <a class="nav-link" href="models.html">Models</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pages</a>
@@ -70,6 +84,7 @@
     </section>
     <section id="Pricing"></section>
  -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
